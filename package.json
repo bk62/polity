@@ -1,0 +1,30 @@
+{
+  "name": "polity",
+  "version": "1.0.0",
+  "description": "DAO contracts",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bk62/polity.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "DAO",
+    "Hardhat",
+    "Typesript",
+    "Solidity"
+  ],
+  "author": "bk62",
+  "license": "MIT",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@0.3.0-beta.13",
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.0",
+    "hardhat": "^2.12.2",
+    "hardhat-deploy": "^0.11.20",
+    "prettier": "^2.7.1",
+    "prettier-plugin-solidity": "^1.0.0-rc.1"
+  }
+}
